@@ -5,3 +5,5 @@ View(guitite)
 modeloG <- aov(Numero_agallas ~ Zona * Tamano_hoja, data = guitite) # Dan significativas todas, hasta la interaccion
 summary(modeloG)
 TukeyHSD(modeloG)
+
+Hola
